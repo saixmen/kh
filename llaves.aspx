@@ -1,9 +1,11 @@
 ﻿<%@ Page Language="VB" MasterPageFile="~/plantilla.master" AutoEventWireup="false" CodeFile="llaves.aspx.vb" Inherits="llaves" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link href="style_keys.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <asp:Table runat="server">
+    <div id="cont_llaves">
+    <asp:Table runat="server" CssClass="tabla">
         <%--http://es.kingdomhearts.wikia.com/wiki/Categor%C3%ADa:Llaves_espada--%>
         <asp:TableRow>
             <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/principal.png" ></asp:Image></asp:TableCell>
@@ -103,5 +105,6 @@
         </asp:TableRow>
 
     </asp:Table>
+    </div>
 
 </asp:Content>

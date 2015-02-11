@@ -1,2 +1,10 @@
 ﻿body {
+    
+}
+#cont_llaves {
+    background-image:url('img/llaves.png');   
+    
+}
+.tabla {
+    background-color:transparent;
 }
