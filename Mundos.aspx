@@ -9,18 +9,18 @@
     <div id="botones2" class="menu_mundos">
         <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/01_isladestino.png" Width="100px" ID="ImageButton1" OnClick="Imagen1_Click"></asp:ImageButton>
         <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/02_ciudaddelpaso.png" Width="100px" ID="ImageButton2" OnClick="Imagen2_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/04_coliseo.png" Width="100px" ID="ImageButton3" OnClick="Imagen3_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/03_wonderland.png" Width="100px" ID="ImageButton4" OnClick="Imagen4_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/03_wonderland.png" Width="100px" ID="ImageButton3" OnClick="Imagen3_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/04_coliseo.png" Width="100px" ID="ImageButton4" OnClick="Imagen4_Click"></asp:ImageButton>
         <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/05_DEEP.png" Width="100px" ID="ImageButton5" OnClick="Imagen5_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/07_hallow.png" Width="100px" ID="ImageButton6" OnClick="Imagen6_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/08_bastionhueco.png" Width="100px" ID="ImageButton7" OnClick="Imagen7_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/12_neverland.png" Width="100px" ID="ImageButton8" OnClick="Imagen8_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/09_findelmundo.png" Width="100px" ID="ImageButton9" OnClick="Imagen9_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/10_monstuo.png" Width="100px" ID="ImageButton10" OnClick="Imagen10_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/11_agrabah.png" Width="100px" ID="ImageButton11" OnClick="Imagen11_Click"></asp:ImageButton>
-        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/06_atlantica.png" Width="100px" ID="ImageButton12" OnClick="Imagen12_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/11_agrabah.png" Width="100px" ID="ImageButton6" OnClick="Imagen6_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/10_monstuo.png" Width="100px" ID="ImageButton7" OnClick="Imagen7_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/06_atlantica.png" Width="100px" ID="ImageButton8" OnClick="Imagen8_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/07_hallow.png" Width="100px" ID="ImageButton9" OnClick="Imagen9_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/12_neverland.png" Width="100px" ID="ImageButton10" OnClick="Imagen10_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/08_bastionhueco.png" Width="100px" ID="ImageButton11" OnClick="Imagen11_Click"></asp:ImageButton>
+        <asp:ImageButton runat="server" Height="83px" ImageUrl="~/img/mundos/09_findelmundo.png" Width="100px" ID="ImageButton12" OnClick="Imagen12_Click"></asp:ImageButton>
     </div>
-
+    
     &nbsp;<br />
     <div id="div_globMun">
         <asp:MultiView ID="MultiView1" runat="server">
@@ -50,7 +50,7 @@
 
             <asp:View ID="View2" runat="server">
                 <div class="div_mun">
-                    <asp:Image ID="Image4" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+                    <asp:Image ID="Image4" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers"/>
 
                     <h1>CIUDAD DEL PASO</h1>
                     Ciudad de Paso es un mundo original de Kingdom Hearts. Es el segundo mundo jugable del juego. Es un mundo en el que se refugia la gente cuando sus mundos son destruidos. La mayoría de la gente que se refugiaba en Kingdom Hearts en esta ciudad, pasó a habitar en Bastión Hueco en la secuela
@@ -58,7 +58,7 @@
             </asp:View>
             <asp:View ID="View3" runat="server">
                 <div class="div_mun">
-                    <asp:Image ID="Image2" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+                    <asp:Image ID="Image2" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers"/>
                     <h1>COLISEO DEL OLIMPO</h1>
                     Esta basado en la película de 1997 de Disney, Hércules, Filoctetes aparece, entrenando a Hércules y a otros héroes.
                     <br />
@@ -70,7 +70,7 @@
             </asp:View>
             <asp:View ID="View4" runat="server">
                 <div class="div_mun">
-                    <asp:Image ID="Image3" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+                    <asp:Image ID="Image3" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
                     <h1>PAIS DE LAS MARAVILLAS</h1>
                     País de las Maravillas es un mundo inspirado en la película "Alicia en el País de las Maravillas".
                     <br />
@@ -80,14 +80,14 @@
 
             <asp:View ID="View5" runat="server">
                 <div class="div_mun">
-                    <asp:Image ID="Image5" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+                    <asp:Image ID="Image5" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
                     <h1>SELVA PROFUNDA</h1>
                     Selva Profunda es un mundo procedente de la película Tarzán. En la Nave Gumi , Sora y Donald discuten sobre si desembarcar o no en la Selva Profunda. Sora dice que Kairi y Riku podrían estar ahí, pero Donald le replica que el Rey Mickey no está, así que no tienen motivo para bajarse.
                 </div>
     </asp:View>
         <asp:View ID="View6" runat="server">
             <div class="div_mun">
-                <asp:Image ID="Image6" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+                <asp:Image ID="Image6" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
                 <h1>CIUDAD DE HALLOWEEN</h1>
                 Se basa en la clásica película de Tim Burton Pesadilla Antes de Navidad, realizada con animación stop-motion.
                 <br />
@@ -96,14 +96,14 @@
         </asp:View>
     <asp:View ID="View7" runat="server">
         <div class="div_mun">
-            <asp:Image ID="Image7" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+            <asp:Image ID="Image7" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
             <h1>NUNCA JAMAS</h1>
             Está basado en la película "Peter Pan". Las principales ubicaciones son el Barco Pirata y la Torre del Reloj de Londres, el "Big Ben".
         </div>
     </asp:View>
     <asp:View ID="View8" runat="server">
         <div class="div_mun">
-            <asp:Image ID="Image8" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+            <asp:Image ID="Image8" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
             <h1>BASTION HUECO</h1>
             Significa "Castillo Vacío", lo que refleja está totalmente deshabitado, excepto los Sincorazón) , se conoció así por el ataque de Maléfica.
             <br />
@@ -116,7 +116,7 @@
 
     <asp:View ID="View9" runat="server">
         <div class="div_mun">
-            <asp:Image ID="Image9" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+            <asp:Image ID="Image9" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
             <h1>FIN DEL MUNDO</h1>
             Fin del Mundo es un mundo originario de Kingdom Hearts es parte fundamental en el juego.
             <br />
@@ -128,14 +128,14 @@
     </asp:View>
     <asp:View ID="View10" runat="server">
         <div class="div_mun">
-            <asp:Image ID="Image10" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+            <asp:Image ID="Image10" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
             <h1>MONSTRUO</h1>
             Los sucesos en este mundo pasan en el interior del monstruo, una ballena. Esta viaja por el espacio devorando todo a su paso. A pesar de que a Monstruo, se lo considere como un mundo, carece de cerradura. Ademas, no es un mundo que deba ser pasado, pero si no sucede esto, Geppetto y Pinocho no aparecerán en Ciudad de Paso hasta que se complete, ni tampoco obtendrán la Llave Espada, Estrella Fugaz.
         </div>
     </asp:View>
     <asp:View ID="View11" runat="server">
         <div class="div_mun">
-            <asp:Image ID="Image11" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+            <asp:Image ID="Image11" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" CssClass="imagenpers" />
             <h1>AGRABAH</h1>
             Es una ciudad en mitad del desierto. También tiene unas ruinas y La Cueva de las Maravillas.
             <br />
@@ -148,7 +148,7 @@
     </asp:View>
     <asp:View ID="View12" runat="server">
         <div class="div_mun">
-            <asp:Image ID="Image12" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px" />
+            <asp:Image ID="Image12" runat="server" Height="185px" ImageUrl="~/img/mundos/01isla.jpg" Width="289px"  CssClass="imagenpers" />
             <h1>ATLANTICA</h1>
             Atlántica es un mundo marino procede de la película "La Sirenita" estrenada en 1989.
             <br />
