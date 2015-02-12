@@ -7,101 +7,121 @@
     <div id="cont_llaves">
     <asp:Table runat="server" CssClass="tabla">
         <%--http://es.kingdomhearts.wikia.com/wiki/Categor%C3%ADa:Llaves_espada--%>
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/principal.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow>
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/principal.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/prometida.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow>
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/prometida.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/oblivion.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+      <asp:TableRow>
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/oblivion.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+          <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/artema.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+      <asp:TableRow>
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/artema.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+          <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Kingdom_Key.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Kingdom_Key.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Keyblade_of_People.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Keyblade_of_People.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Lady_Luck.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Lady_Luck.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Olympia.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Olympia.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Jungle_King.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Jungle_King.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Three_Wishes.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Three_Wishes.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Pumpkinhead.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
-        </asp:TableRow>
-
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Wishing_Star.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Pumpkinhead.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Crabclaw.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Wishing_Star.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Fairy_Harp.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Crabclaw.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Divine_Rose.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Fairy_Harp.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Spellbinder.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Divine_Rose.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Metal_Chocobo.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Spellbinder.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Lionheart.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Metal_Chocobo.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/Diamond_Dust.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Lionheart.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
-        <asp:TableRow>
-            <asp:TableCell><asp:Image runat="server" ImageUrl="~/img/img_key/One-Winged_Angel.png" ></asp:Image></asp:TableCell>
-            <asp:TableCell><label>Nombre</label></asp:TableCell>
+
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Diamond_Dust.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+        </asp:TableRow>
+       <asp:TableRow CssClass="fila">
+            <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/One-Winged_Angel.png" CssClass="img" ></asp:Image></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Nombre</label></asp:TableCell>
         </asp:TableRow>
 
     </asp:Table>
