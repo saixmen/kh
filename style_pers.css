@@ -8,13 +8,14 @@ cont_menu{
 .menu_pers{
     
     background-color:black;
-
+    margin-left:15vw;
 }
 .bt{
     margin-top:2px;
     margin-left:2px;
     padding: 15px;
     padding-bottom:0px;
+  
 }
 
 #div_glob {
@@ -26,6 +27,10 @@ cont_menu{
     background:url("img/004.png");
     width:100%;
     height:100%;
+    background-repeat:no-repeat;    
+    background-size:contain;
+    background-position-x:right;
+    background-color:#191919;
 
 }
 
@@ -38,6 +43,9 @@ cont_menu{
     background:url("img/005.png");
     width:100%;
     height:100%;
+    background-size:contain;
+    background-repeat:no-repeat;    
+    background-position-x:right;
 
 }
 
@@ -51,6 +59,7 @@ cont_menu{
     -moz-border-radius: 60px 60px 60px 60px;
     -webkit-border-radius: 60px 60px 60px 60px;
     border: 2px dashed #000000;
+   
 }
 
 .div_mun {
@@ -59,6 +68,11 @@ cont_menu{
     width:60%;
     min-height: 46vh;
     color: white;
+     
+}
+
+.menu_mundos{
+    margin-left:15vw;
 }
 
     .div_mun > h1 {

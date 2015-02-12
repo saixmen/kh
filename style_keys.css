@@ -1,20 +1,32 @@
-﻿body {
+﻿@font-face{
+font-family: A;
+src: url('Kingdom_Hearts_Font.ttf');
+}
+
+@font-face{
+font-family: B;
+src: url('Coda.ttf');
+}
+body {
+    background-color:black;
     
 }
 #cont_llaves {
-    background-image:url('img/llaves.png');   
+    background-image:url('img/llaves.png');      
     
 }
 .tabla {
     background-color:white;
-    opacity:0.5;
+    opacity:0.7;
     margin:0 auto;
     width: 70%;
     height:auto;
-    border:1px solid yellow;
+    margin-top:10px;
+
 }
 .tabla label {
-    color:black;;
+    color:black;
+    text-align:center;
     }
 .img
     {
@@ -22,12 +34,20 @@
     max-height:15vh;
 }
 .cell_img {
-    border:1px solid yellow;
+    border:3px solid black;
     width:12%;
 }
 .cell_let{
-    border:1px solid yellow;
+    border:3px solid black;
     width:43%;
+    text-align:center;
+    font-family: B;
+    font-size: 25px;
+}
+
+.cell_let_e{
+    border:3px solid black;
+    width:12%;
     text-align:center;
 }
 
