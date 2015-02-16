@@ -8,15 +8,15 @@
     <asp:Table runat="server" CssClass="tabla">
         <%--http://es.kingdomhearts.wikia.com/wiki/Categor%C3%ADa:Llaves_espada--%>
         <asp:TableHeaderRow>
-            <asp:TableCell CssClass="cell_let_e"><label>Llave</label></asp:TableCell>
-            <asp:TableCell CssClass="cell_let" ><label>Descripcion</label></asp:TableCell>
-            <asp:TableCell CssClass="cell_let" ><label>Obtencion</label></asp:TableCell>
+            <asp:TableCell CssClass="cell_header"><label>Llave</label></asp:TableCell>
+            <asp:TableCell CssClass="cell_header" ><label>Descripcion</label></asp:TableCell>
+            <asp:TableCell CssClass="cell_header" ><label>Obtencion</label></asp:TableCell>
         </asp:TableHeaderRow>
        
        <asp:TableRow>
             <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/principal.png" CssClass="img" ></asp:Image></asp:TableCell>
             <asp:TableCell CssClass="cell_let" ><label class="lab"> Es el llavero inicial, es el que muestra la verdadera forma de la llave espada</label></asp:TableCell>
-            <asp:TableCell CssClass="cell_let" ><label class="lab"> Hablando con ricku en las Islas del Destino mientras estan atacando los sincorazon </label></asp:TableCell>
+            <asp:TableCell CssClass="cell_let" ><label class="lab"> Hablando con Riku en las Islas del Destino mientras estan atacando los sincorazon </label></asp:TableCell>
         </asp:TableRow>
 
        <asp:TableRow>
@@ -46,7 +46,7 @@
        <asp:TableRow CssClass="fila">
             <asp:TableCell CssClass="cell_img"><asp:Image runat="server" ImageUrl="~/img/img_key/Keyblade_of_People.png" CssClass="img" ></asp:Image></asp:TableCell>
             <asp:TableCell CssClass="cell_let" ><label class="lab"> ********** </label></asp:TableCell>
-           <asp:TableCell CssClass="cell_let" ><label class="lab"> Es la llave de Ricku cuando esta poseido por Amsen no se puede obtener</label></asp:TableCell>
+           <asp:TableCell CssClass="cell_let" ><label class="lab"> Es la llave de Riku cuando esta poseido por Amsen no se puede obtener</label></asp:TableCell>
         </asp:TableRow>
 
        <asp:TableRow CssClass="fila">
