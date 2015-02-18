@@ -8,7 +8,11 @@ cont_menu{
 .menu_pers{
     
     background-color:black;
-    margin-left:15vw;
+
+}
+.menu_mundos {
+    position:relative;
+    left:15%;
 }
 .bt{
     margin-top:2px;
